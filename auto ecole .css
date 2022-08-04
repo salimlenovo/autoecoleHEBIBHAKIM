@@ -1,0 +1,204 @@
+
+
+/**********************************************************************************/
+
+
+body {
+
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding : 0;
+    margin:0;
+}
+
+ul{
+    margin:0;
+    padding:0;
+}
+
+li{
+    list-style-type: none;
+
+
+}
+
+h2{
+    text-transform : uppercase;
+    text-align: center;
+    padding-top: 30 px;
+    font-size: 2em ;
+    
+}
+a{
+    text-decoration: none;
+    color : black;
+
+}
+
+ /***********************************************************NAVBAR********************************************/
+
+nav {
+
+    overflow: hidden;
+    background: white;
+    position: fixed;
+    width: 100%;
+    opacity: 0.9;
+    
+ }
+ header li {
+    float : right;
+    font-size: 1.2em;
+
+ }
+ header li a {
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    padding: 18px 16px;
+
+
+ }
+ #logo {
+    font-family: cursive;
+    font-weight:bold;
+    float:left;
+
+ }
+ /***************************IMAGE PRINCIPAL *************************************/
+
+ .imageprincipale  {
+
+    padding-top: 60px;
+    background: url(image.jpg) fixed 50% 50%;
+    background-size: cover;
+    height: 799px;
+    
+ }
+h1{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    color: blue;
+    font-size: 6em;
+    margin-top:100px;
+    text-shadow: 1px 3px 2px black;
+
+
+
+}
+.premierTrait{
+    height: 1px;
+    width: 25%;
+    margin:-3px auto;
+    background-color:white 
+    ;
+}
+
+h3{
+    text-align: center;
+    font-size:3em;
+    color: antiquewhite;
+
+
+}
+
+
+/****************************************presentation*********************************************/
+
+#presentation{
+    background-color:aliceblue;
+    padding:10px 0px 30px 0px;
+
+
+}
+#textintro{
+    padding: 0px 20% ;
+}
+
+#photo {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding:30px 10 px;
+
+}
+
+footer{
+    background-color: grey;
+    color:white;
+    padding: 20px 0 10px 0 ;
+    text-align: center;
+
+}
+form{
+    margin: 0 auto;
+    max-width: 800 px ;
+
+}
+input,textarea,button{
+    border:none;
+    width: 55%;
+    padding:15px;
+    margin:1px 0;
+    font-size: 1.2em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 8px;
+
+}
+
+textarea{
+    height: 122;
+
+}
+button{
+    font-size: 1.5em;
+    background-color:aliceblue;
+
+}
+button:hover{
+    background-color: red;
+    color: pink;
+    cursor: grabbing;
+    transition: 0.3s ease-in-out;
+
+}
+
+#deuxiemeTrait{
+    height: 1px;
+    width: 75%;
+    margin:30px auto;
+    background-color:purple;
+    
+    
+}
+
+#copyrighteticons{
+
+    display:flex;
+    margin-bottom: 20px;
+    padding:0 10%;
+}
+
+#copyright{
+    
+        color:aliceblue;
+        width: 50%;
+        text-align: left;
+        
+    }
+
+#icons a {
+        width: 25%;
+       text-align: right;
+        margin: 0 15px  ;
+        font-size: 1.3em;
+        color:beige
+       
+    }
+#icons a:hover{
+
+    transform: scale(1.5);
+    transition: 0.5s;
+}
+
+
+
